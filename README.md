@@ -1,18 +1,15 @@
 🖐️ Touchless VFX Controller
-
 A real-time hand gesture-based visual effects engine built using computer vision and browser-based rendering.
-
+--
 🔍 Overview
-
 This project uses hand tracking and gesture recognition to create interactive visual effects directly in the browser using your webcam.
-
 Users can control different visual powers like fire, ice, lightning, and color effects — all without touching the screen.
-
+--
 ⚙️ Tech Stack
-HTML5 Canvas
-JavaScript (Vanilla JS)
-MediaPipe Hands
-Web Camera API
+#HTML5 Canvas
+#JavaScript (Vanilla JS)
+#MediaPipe Hands
+#Web Camera API
 
 ✨ Features
 🎥 Real-time hand tracking
