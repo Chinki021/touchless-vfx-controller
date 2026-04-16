@@ -2,7 +2,7 @@
 
 A real-time hand gesture-based visual effects engine built using computer vision and browser-based rendering.
 
-
+--
 
 🔍 Overview
 
