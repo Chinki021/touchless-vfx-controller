@@ -2,7 +2,7 @@
 
 A real-time hand gesture-based visual effects engine built using computer vision and browser-based rendering.
 
---
+
 
 🔍 Overview
 
@@ -14,8 +14,11 @@ Users can control different visual powers like fire, ice, lightning, and color e
 ⚙️ Tech Stack
 
 HTML5 Canvas
+
 JavaScript (Vanilla JS)
+
 MediaPipe Hands
+
 Web Camera API
 
 --
@@ -23,13 +26,19 @@ Web Camera API
 ✨ Features
 
 🎥 Real-time hand tracking
+
 ⚡ Multiple gesture-based effects:
+
  📌Fire & Ice mode
 📌Lightning mode
 📌Dual color (Red & Blue) mode
+
 🤏 Pinch detection for drawing effects
+
 🖐️ Open hand detection for power activation
+
 🎨 Particle-based visual system
+
 🔥 Optimized rendering to reduce lag
 
 --
