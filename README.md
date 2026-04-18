@@ -52,7 +52,7 @@ Users can control different visual powers like fire, ice, lightning, and color e
 
 | Key | Mode                      |
 |-----|---------------------------|
-| 1   | Fire (Left) & Ice (Right) |
+| 1   | Fire (right) & Ice (left) |
 | 2   | Lightning                 |
 | 3   | Red & Blue                |
 
