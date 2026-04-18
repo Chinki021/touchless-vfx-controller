@@ -1,76 +1,96 @@
-🖐️ Touchless VFX Controller
+# 🖐️ Touchless VFX Controller  
 
-A real-time hand gesture-based visual effects engine built using computer vision and browser-based rendering.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![HTML5](https://img.shields.io/badge/HTML5-Canvas-orange)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hands-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
---
+A real-time hand gesture-based visual effects system built using computer vision and browser-based rendering.
 
-🔍 Overview
+---
 
-This project uses hand tracking and gesture recognition to create interactive visual effects directly in the browser using your webcam.
+## 🎥 Demo  
+
+Watch how hand gestures control fire, ice, and lightning effects in real-time.
+
+https://github.com/user-attachments/assets/9f6a6374-c943-4d59-a9c1-60e875c6a61d
+
+---
+
+## 🔍 Overview  
+
+This project uses hand tracking and gesture recognition to create interactive visual effects directly in the browser using your webcam.  
+
 Users can control different visual powers like fire, ice, lightning, and color effects — all without touching the screen.
 
---
+---
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack  
 
-HTML5 Canvas
+- HTML5 Canvas  
+- JavaScript (Vanilla JS)  
+- MediaPipe Hands  
+- Web Camera API  
 
-JavaScript (Vanilla JS)
+---
 
-MediaPipe Hands
+## ✨ Features  
 
-Web Camera API
+- 🎥 Real-time hand tracking  
+- ⚡ Multiple gesture-based effects:
+  - 🔥 Fire & Ice mode  
+  - ⚡ Lightning mode  
+  - 🔴🔵 Dual color (Red & Blue) mode  
+- 🤏 Pinch detection for drawing effects  
+- 🖐️ Open hand detection for power activation  
+- 🎨 Particle-based visual system  
+- 🔥 Optimized rendering for smoother performance  
 
---
+---
 
-✨ Features
-
-🎥 Real-time hand tracking
-
-⚡ Multiple gesture-based effects:
-
- 📌Fire & Ice mode
-📌Lightning mode
-📌Dual color (Red & Blue) mode
-
-🤏 Pinch detection for drawing effects
-
-🖐️ Open hand detection for power activation
-
-🎨 Particle-based visual system
-
-🔥 Optimized rendering to reduce lag
-
---
-
-🎮 Controls
+## 🎮 Controls  
 
 | Key | Mode                      |
-| --- | ------------------------- |
+|-----|---------------------------|
 | 1   | Fire (Left) & Ice (Right) |
 | 2   | Lightning                 |
 | 3   | Red & Blue                |
 
---
+---
 
-Key	Mode
+## 🧠 How It Works  
 
-1	Fire (Left) & Ice (Right)
-2	Lightning
-3	Red & Blue
+- Uses MediaPipe to track **21 hand landmarks in real-time**  
+- Detects gestures like:
+  - 🤏 Pinch → enables drawing  
+  - 🖐️ Open hand → activates effects  
+- Maps hand coordinates to the canvas  
+- Generates effects using a **particle system + gradients**  
+- Updates visuals continuously using webcam input  
 
---
+---
 
-🧠 How It Works
+## ⚠️ Notes  
 
-Uses landmark detection from MediaPipe to track 21 points on each hand
+- Works best in **Google Chrome**  
+- Requires webcam access  
+- Performance may vary based on system capability  
 
-Detects gestures like:
+---
 
-Open hand → activates power
+## 💡 Future Improvements  
 
-Pinch → drawing mode
+- Advanced multi-hand gesture recognition  
+- Custom gesture training  
+- UI overlay for controls  
+- Mobile compatibility  
+- Performance optimization (FPS tuning)  
 
-Maps hand coordinates to canvas for real-time rendering
+---
 
-Uses particle systems + gradients for effects
+## 🙋‍♀️ Author  
+
+**CHINKI RAJ**  
+GitHub: https://github.com/Chinki021  
+
+
